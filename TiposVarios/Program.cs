@@ -14,6 +14,9 @@ namespace OlaMundo
             int x = 0b1011_0110;
             int n = 0b10110110;
             double y = 1_712_432.23;
+
+            Console.WriteLine(i + " " + j + " " + x + " " + n + "" + y);
+
         }
     }
 }
