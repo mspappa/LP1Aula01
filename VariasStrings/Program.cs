@@ -13,6 +13,7 @@ namespace OlaMundo
             string b = @"Nao é um codigo Unicode \u1234, nao é nova linha \n";
             string c = "\"Esta string está entre aspas\"";
             string d = @"""Esta string está entre aspas""";
+            string e = String.Format("Y é {1}, X é {0}", x, y);
 
             string x = "a" + 2;
             string y = "abc" + x;
@@ -23,13 +24,14 @@ namespace OlaMundo
             double xx = 0.12345;
             int ii = 18;
 
-            String.Format("Y e’ {1}, X é {0}", x, y);
-            
-            Console.WriteLine(a + "\n" + b + "\n" + c + "\n" + d);
+            string xx1 = $"xx={xx:f2}. e .{xx:p1}";
+            string ii1 = $"xx={xx:x}. e .{xx:m}";
+
+            Console.WriteLine(a + "\n" + b + "\n" + c + "\n" + d + "\n" + e);
             Console.WriteLine("\n" + x + "\n" + y);
             Console.WriteLine("\n" + z + "\n" + w);
             Console.WriteLine(@"Verbatim com x = {0}", x);
-            Console.WriteLine();
+            Console.WriteLine(xx1 + "\n" + ii1 + "\n");
         }
     }
 }
