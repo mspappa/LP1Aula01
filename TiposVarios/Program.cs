@@ -18,8 +18,13 @@ namespace OlaMundo
             char copyrightSymbol = '\u00A9';
             char newLine = '\u000A';
 
+            float a = 3.1415f;
+            decimal b = 3.1415m;
+            long c = 3L;
+
             Console.WriteLine(i + " " + j + " " + x + " " + n + "" + y);
             Console.WriteLine(copyrightSymbol + " " + newLine);
+            Console.WriteLine(a + " " + b + " " + c);
         }
     }
 }
