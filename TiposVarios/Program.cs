@@ -15,8 +15,11 @@ namespace OlaMundo
             int n = 0b10110110;
             double y = 1_712_432.23;
 
-            Console.WriteLine(i + " " + j + " " + x + " " + n + "" + y);
+            char copyrightSymbol = '\u00A9';
+            char newLine = '\u000A';
 
+            Console.WriteLine(i + " " + j + " " + x + " " + n + "" + y);
+            Console.WriteLine(copyrightSymbol + " " + newLine);
         }
     }
 }
