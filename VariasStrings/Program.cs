@@ -18,15 +18,18 @@ namespace OlaMundo
             string y = "abc" + x;
 
             string z = $"valor de x é {x}";
-            string w = $"{x} mais {y} e’ igual a {x + y}";
+            string w = $"{x} mais {y} é igual a {x + y}";
 
-            String.Format("Y e’ {1}, X e’ {0}", x, y);
+            double xx = 0.12345;
+            int ii = 18;
+
+            String.Format("Y e’ {1}, X é {0}", x, y);
             
-
             Console.WriteLine(a + "\n" + b + "\n" + c + "\n" + d);
             Console.WriteLine("\n" + x + "\n" + y);
             Console.WriteLine("\n" + z + "\n" + w);
             Console.WriteLine(@"Verbatim com x = {0}", x);
+            Console.WriteLine();
         }
     }
 }
