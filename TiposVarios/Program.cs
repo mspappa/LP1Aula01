@@ -22,9 +22,13 @@ namespace OlaMundo
             decimal b = 3.1415m;
             long c = 3L;
 
+            bool condition1 = 5 > 3;
+            bool condition2 = false;
+
             Console.WriteLine(i + " " + j + " " + x + " " + n + "" + y);
             Console.WriteLine(copyrightSymbol + " " + newLine);
             Console.WriteLine(a + " " + b + " " + c);
+            Console.WriteLine(condition1 + " " + condition2);
         }
     }
 }
