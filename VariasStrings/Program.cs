@@ -25,7 +25,7 @@ namespace OlaMundo
             int ii = 18;
 
             string xx1 = $"xx={xx:f2}. e .{xx:p1}";
-            string ii1 = $"xx={xx:x}. e .{xx:m}";
+            string ii1 = $"ii={ii:x}. e .{ii:m}";
 
             Console.WriteLine(a + "\n" + b + "\n" + c + "\n" + d + "\n" + e);
             Console.WriteLine("\n" + x + "\n" + y);
