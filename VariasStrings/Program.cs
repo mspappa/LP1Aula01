@@ -9,14 +9,13 @@ namespace OlaMundo
     {
         static void Main(string[] args)
         {
+            string x = "a" + 2;
+            string y = "abc" + x;
             string a = "Um tab\t e um copyright\u03A9";
             string b = @"Nao é um codigo Unicode \u1234, nao é nova linha \n";
             string c = "\"Esta string está entre aspas\"";
             string d = @"""Esta string está entre aspas""";
             string e = String.Format("Y é {1}, X é {0}", x, y);
-
-            string x = "a" + 2;
-            string y = "abc" + x;
 
             string z = $"valor de x é {x}";
             string w = $"{x} mais {y} é igual a {x + y}";
